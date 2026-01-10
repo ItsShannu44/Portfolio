@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Shanmukha Bhat | Developer</title>
+    <meta name="description" content="Professional web developer specializing in modern, responsive, and user-friendly websites.">
+    <meta name="keywords" content="Web Developer, JavaScript, Frontend Developer, Shanmukha, shanmukha, shanmukha bhat, Shanmukha Bhat, shannu.io,shanmukhabhat,Shanmukhabhat Portfolio, Shannu.io, Shannu">
+    <meta name="author" content="Shanmukha Bhat, Shannu.io">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Scroll Indicators -->
+    <div class="scroll-indicators">
+        <div class="scroll-progress" id="scrollProgress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="mainHeader">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">SHAN<span>MUKHA</span></a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Featured</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="projects.html" class="nav-link">All Projects →</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" 
+                    data-aos="fade-up" 
+                    data-aos-duration="1200">
+                    Full Stack<br>Developer
+                </h1>
+                <p class="hero-subtitle" 
+                   data-aos="fade-up" 
+                   data-aos-delay="200">
+                    Creating digital experiences with clean code & modern design
+                </p>
+                <p class="hero-description" 
+                   data-aos="fade-up" 
+                   data-aos-delay="400">
+                    I specialize in building scalable web applications using modern technologies. 
+                    With a focus on clean architecture and intuitive user interfaces, I transform 
+                    complex requirements into elegant, maintainable solutions.
+                </p>
+                <div class="hero-btns" 
+                     data-aos="fade-up" 
+                     data-aos-delay="600">
+                    <a href="projects.html" class="btn">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Contact Me</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Profile Photo Section -->
+            <div class="hero-profile" data-aos="fade-left" data-aos-delay="400">
+                <div class="profile-image-container">
+                    <div class="profile-image-placeholder">
+                        <img src="images/Shanmukha_Profile.jpg" 
+                             alt="Shanmukha - Full Stack Developer" 
+                             class="profile-image">
+                    </div>
+                    <div class="profile-badge">
+                        <div class="badge-content">
+                            <span class="badge-text">Available for Work</span>
+                            <div class="badge-pulse"></div>
+                        </div>
+                    </div>
+                    <div class="profile-frame"></div>
+                    <div class="profile-dots">
+                        <div class="dot dot-1"></div>
+                        <div class="dot dot-2"></div>
+                        <div class="dot dot-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Animated Background Elements -->
+        <div class="hero-bg-elements">
+            <div class="bg-line line-1" data-speed="0.5"></div>
+            <div class="bg-line line-2" data-speed="0.7"></div>
+            <div class="bg-line line-3" data-speed="0.3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <span class="section-label">About</span>
+                <h2>Professional Background</h2>
+                <p class="section-description">
+                    A brief overview of my expertise and approach to software development
+                </p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card" 
+                     data-aos="fade-right" 
+                     data-aos-delay="200">
+                    <div class="about-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Technical Expertise</h3>
+                    <p>
+                        Proficient in modern JavaScript frameworks including React, Node. 
+                        Extensive experience with Node.js, Python, and cloud platforms like AWS and GCP.
+                    </p>
+                    <ul class="expertise-list">
+                        <li>Frontend Development</li>
+                        <li>Backend Architecture</li>
+                        <li>Database Design</li>
+                        <li>DevOps & CI/CD</li>
+                    </ul>
+                </div>
+                
+                <div class="about-card" 
+                     data-aos="fade-up" 
+                     data-aos-delay="300">
+                    <div class="about-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Design Philosophy</h3>
+                    <p>
+                        Believe in creating intuitive user interfaces with clean, minimalist design. 
+                        Focus on user experience, accessibility, and responsive design principles.
+                    </p>
+                    <ul class="expertise-list">
+                        <li>UI/UX Design</li>
+                        <li>Responsive Layouts</li>
+                        <li>Accessibility</li>
+                        <li>Design Systems</li>
+                    </ul>
+                </div>
+                
+                <div class="about-card" 
+                     data-aos="fade-left" 
+                     data-aos-delay="400">
+                    <div class="about-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Development Process</h3>
+                    <p>
+                        Agile methodology with emphasis on clean code, testing, and documentation. 
+                        Strong advocate for code reviews, pair programming, and continuous learning.
+                    </p>
+                    <ul class="expertise-list">
+                        <li>Agile Development</li>
+                        <li>Code Quality</li>
+                        <li>Testing</li>
+                        <li>Documentation</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="skills-section" data-aos="fade-up" data-aos-delay="500">
+                <h3>Core Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React.js</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>UI/UX Design</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Cloud Deployment</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Database Design</span>
+                            <span>87%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="87"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <span class="section-label">Education</span>
+                <h2>Academic Background</h2>
+                <p class="section-description">
+                    Formal education and continuous learning journey
+                </p>
+            </div>
+            
+            <div class="education-timeline">
+                <!-- Edu 1 -->
+                <div class="timeline-item current-education" data-aos="fade-right" data-aos-delay="200">
+                    <div class="timeline-year">2026 - Present</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Master of Computer Applications.</h3>
+                            <div class="timeline-badge current-badge">Current</div>
+                        </div>
+                        <div class="timeline-institution">PES University, Bangalore</div>
+                        <div class="timeline-details">
+                            <span class="detail-item"><i class="fas fa-graduation-cap"></i> Research Focus: AI & HCI</span>
+                            <span class="detail-item"><i class="fas fa-award"></i> Graduate Fellowship</span>
+                            <span class="detail-item"><i class="fas fa-trophy"></i> Ongoing Research</span>
+                        </div>
+                        <p class="timeline-description">
+                            Currently pursuing a Master of Computer Applications (MCA). 
+                            Gaining strong knowledge in software development, web technologies, and database management. 
+                            Actively working on academic and personal projects to build practical, industry-ready skills.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span>Web Application Development</span>
+                            <span>Database Management Systems</span>
+                            <span>Programming & Software Engineering</span>
+                        </div>
+                        <div class="current-status">
+                            <span class="status-indicator">
+                                <i class="fas fa-circle pulse"></i>
+                                Currently Enrolled
+                            </span>
+                            <span class="status-progress">Expected Graduation: 2027 </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Edu 2 -->
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="300">
+                    <div class="timeline-year">2022 - 2025</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Computer Applications (BCA)</h3>
+                            <div class="timeline-badge">Completed</div>
+                        </div>
+                        <div class="timeline-institution">Mangalore University, Mangaluru</div>
+                        <div class="timeline-details">
+                            <span class="detail-item"><i class="fas fa-graduation-cap"></i> CGPA: 8.0+</span>
+                            <span class="detail-item"><i class="fas fa-award"></i> Academic Excellence</span>
+                            <span class="detail-item"><i class="fas fa-trophy"></i> IT Fest Finalist</span>
+                        </div>
+                        <p class="timeline-description">
+                            Completed Bachelor of Computer Applications with a strong foundation in programming, 
+                            data structures, database management, and web development. 
+                            Actively participated in IT quizzes and web design competitions during university fests.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span>Web Development</span>
+                            <span>Database Management Systems</span>
+                            <span>Programming Fundamentals</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Edu 3 -->
+            <div class="timeline-item" data-aos="fade-left" data-aos-delay="500"> 
+                <div class="timeline-year">2020 - 2022</div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Pre-University Course (PUC)</h3>
+                        <div class="timeline-badge">Completed</div>
+                    </div>
+                    <div class="timeline-institution">MPE's SDM PU College, Honnavar</div>
+                    <div class="timeline-details">
+                        <span class="detail-item"><i class="fas fa-graduation-cap"></i> Stream: Science</span>
+                        <span class="detail-item"><i class="fas fa-award"></i> PCMC</span>
+                        <span class="detail-item"><i class="fas fa-trophy"></i> Academic Focus</span>
+                    </div>
+                    <p class="timeline-description">
+                        Completed Pre-University education with a focus on Physics, Chemistry, 
+                        Mathematics, and Computer Science. 
+                        Developed strong analytical and problem-solving skills that laid the foundation for a career in computer applications.
+                    </p>
+                    <div class="timeline-highlights">
+                        <span>Physics & Mathematics</span>
+                        <span>Computer Science Basics</span>
+                        <span>Logical Thinking</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <span class="section-label">Projects</span>
+                <h2>Featured Work</h2>
+                <p class="section-description">
+                    Selected projects showcasing technical expertise and design skills
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" 
+                     data-aos="flip-left" 
+                     data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <!-- <i class="fas fa-chart-line"></i> -->
+                            <img src="images/KwikChat.png" alt="KwikChat">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#contact" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Messaging Application</div>
+                        <h3>KwikChat</h3>
+                        <p>
+                            A real-time messaging and communication platform with customizable theme & UI. Also having Speech-to-text feature for sending instant messages.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>SocketIO</span>
+                            <span>Replit</span>
+                        </div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-users"></i> No Reg Users</span>
+                            <span><i class="fas fa-bolt"></i> 99.9% Uptime</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" 
+                     data-aos="flip-left" 
+                     data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <!-- <i class="fas fa-shopping-cart"></i> -->
+                             <img src="images/MusicMeta.png" alt="MusicMeta">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link"><i class="fas fa-eye"></i></a> -->
+                                <a href="#contact" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Music Player</div>
+                        <h3>MusicMeta</h3>
+                        <p>
+                            MusicMeta is a modern music player application with a Spotify-inspired user interface, designed to provide a smooth, intuitive, and visually engaging music listening experience.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>SQLite3</span>
+                            <span>Render</span>
+                        </div>
+                        <div class="project-stats">
+                            <span>  1K+ Songs</span>
+                            <span> 20+ Artists</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" 
+                     data-aos="flip-left" 
+                     data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <!-- <i class="fas fa-mobile-alt"></i> -->
+                             <img src="images/MetaMorph.png" alt="MetaMorph">
+
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link"><i class="fas fa-eye"></i></a> -->
+                                <a href="#contact" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">MultiTools Platform</div>
+                        <h3>MetaMorph</h3>
+                        <p>
+                            Simplify digital workflow with our comprehensive suite of free online tools. Convert, create, extract, and more — all in one convenient platform.
+                        </p>
+                        <div class="project-tech">
+                            <span>React Js</span>
+                            <span>Vercel</span>
+                        </div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-download"></i> 20+ Tools</span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more" data-aos="fade-up" data-aos-delay="500">
+                <a href="projects.html" class="btn btn-outline">
+                    <span>View All Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <span class="section-label">Contact</span>
+                <h2>Get In Touch</h2>
+                <p class="section-description">
+                    Ready to start your next project? Let's discuss
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>itsshannu.io@gmail.com</p>
+                            <span class="info-note">Response within 24 hours</span>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>+1 (415) 555-7890</p>
+                            <span class="info-note">Mon-Fri, 9AM-6PM PST</span>
+                        </div>
+                    </div> -->
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>Bangalore, India</p>
+                            <span class="info-note">Available worldwide</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.github.com/ItsShannu44" class="social-link" data-aos="zoom-in" data-aos-delay="200">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shanmukha-bhat-3479b1277" class="social-link" data-aos="zoom-in" data-aos-delay="300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" data-aos="zoom-in" data-aos-delay="400">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <!-- <a href="#" class="social-link" data-aos="zoom-in" data-aos-delay="500">
+                            <i class="fab fa-dribbble"></i>
+                        </a> -->
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="300">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="user_name" placeholder="Your Name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="user_email" placeholder="Your Email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Background Animation -->
+        <div class="contact-bg-animation">
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+            <div class="particle particle-5"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="mainFooter">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand" data-aos="fade-up">
+                    <div class="logo">SHAN<span>MUKHA</span></div>
+                    <p>Full Stack Developer & UI/UX Designer</p>
+                </div>
+                
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Quick Links</h4>
+                    <div class="link-group">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter" data-aos="fade-up" data-aos-delay="400">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to my newsletter for latest updates</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom" data-aos="fade-up" data-aos-delay="600">
+                <div class="copyright">
+                    &copy; 2024 Shanmukha. All rights reserved.
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Footer Animation -->
+            <div class="footer-animation">
+                <div class="wave wave-1"></div>
+                <div class="wave wave-2"></div>
+                <div class="wave wave-3"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
+
+    <!---MAIL JS--->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>

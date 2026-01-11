@@ -359,3 +359,5 @@ window.refreshAnimations = function() {
     AOS.refresh();
     animateSkillBars();
 };
+
+

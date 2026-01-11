@@ -4,7 +4,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Disable selection */
+* {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
+/* Allow selection where needed */
+input, 
+textarea,
+.code-block,
+pre,
+.content-editable,
+[contenteditable="true"] {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
 :root {
     /* Minimal Color Palette */
     --black: #000000;
@@ -13,15 +34,9 @@
     --medium-grey: #2a2a2a;
     --light-grey: #777777;
     --white: #ffffff;
-    
-    /* Typography */
     --font-primary: 'Inter', sans-serif;
-    
-    /* Spacing */
     --section-padding: 120px 5%;
     --container-width: 1400px;
-    
-    /* Transitions */
     --transition-fast: 0.3s ease;
     --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
     --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -1445,6 +1460,7 @@ textarea.form-control {
     border-top: 1px solid var(--medium-grey);
     flex-wrap: wrap;
     gap: 20px;
+    z-index: 777;
 }
 
 .copyright {
@@ -1467,6 +1483,8 @@ textarea.form-control {
     border-radius: 50%;
     color: var(--white);
     transition: var(--transition-fast);
+    cursor: pointer;
+    z-index: 700;
 }
 
 .social-icon:hover {
@@ -1474,6 +1492,7 @@ textarea.form-control {
     background: var(--white);
     color: var(--black);
     transform: translateY(-3px) rotate(10deg);
+    cursor: pointer;
 }
 
 /* Footer Animation */
@@ -1483,7 +1502,9 @@ textarea.form-control {
     left: 0;
     width: 100%;
     height: 100px;
-    overflow: hidden;
+    overflow: hidden;   
+    z-index: 1;
+    pointer-events: none;
 }
 
 .wave {
@@ -1495,6 +1516,8 @@ textarea.form-control {
     background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z" fill="%231a1a1a"/></svg>');
     opacity: 0.3;
     animation: waveMove 25s linear infinite;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .wave-1 {
@@ -1686,6 +1709,7 @@ textarea.form-control {
     .footer-bottom {
         flex-direction: column;
         text-align: center;
+        z-index: 777;
     }
     
     .contact-form {

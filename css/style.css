@@ -839,6 +839,7 @@ body.menu-open {
 .timeline-item.current-education {
     border-color: rgba(0, 255, 0, 0.3);
     position: relative;
+    padding: 10px;
 }
 
 .timeline-item.current-education::after {
